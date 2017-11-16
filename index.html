@@ -12,15 +12,19 @@
     <h1>Movie Madness: Review a movie</h1>
     <form class="movies">
       <div class="form-group">
-        <label for="movie-name">Enter a movie title:<label>
+        <label for="movie-name">Enter a movie title:</label>
         <input type="text" id="movie-name" name="movie-name">
       </div>
+      <p>Tomatometer Score</p>
+      <select class="form-control" id="rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select>
       <div class="form-group">
-        <label for="rating">Tomatometer score: 1-5<label>
-        <input type="text" id="rating" name="rating">
-      </div>
-      <div class="form-group">
-        <label for="comments">Leave some comments:<label>
+        <label for="comments">Leave some comments:</label>
         <input type="text" id="comments" name="comments">
       </div>
       <button type="submit" class="btn">Submit your review</button>

@@ -1,0 +1,119 @@
+body {
+  /*background: url(../img/background.jpg);*/
+}
+
+img {
+
+}
+
+h1{
+  text-align: center;
+  font: 5em 'districtregular';
+}
+.movies {
+  background-color: #7E7F9A;
+  border: white;
+  border-width: medium;
+  color: white;
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 0 auto;
+  padding: 40px;
+  font-size: 30px;
+  box-sizing: border-box;
+}
+
+#comments {
+}
+
+.button {
+}
+
+thead {
+  background-color: #0e96b4;
+  color: white;
+  text-align: left;
+}
+
+table {
+  border-spacing: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+caption {
+  font-style: italic;
+  caption-side: bottom;
+  text-align: left;
+}
+
+td:nth-child(n+4) {
+  text-align: right;
+}
+
+td {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #0e96b4;
+}
+
+tbody {
+  color:#5e5d51;
+}
+
+td:nth-child(2) {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+td:nth-child(3) {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+td:nth-child(1) {
+  border-left: 1px solid #0e96b4;
+  font-weight: bold;
+}
+
+td:nth-child(7) {
+  border-right: 1px solid #0e96b4;
+}
+
+tr:nth-child(even) {
+  background-color: #efefee;
+}
+
+tr {
+  border: 2px solid #0e96b4;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+th:nth-child(n+2) {
+  text-align: center;
+}
+
+.movie-table {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 740px;
+  margin-top: 20px;
+  display: none;
+
+}
